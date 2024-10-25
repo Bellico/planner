@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "445057758214",
+    "project_id": "planner-7fc4d",
+    "storage_bucket": "planner-7fc4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445057758214:android:f11c7b97f9848ac8bd7f87",
+        "android_client_info": {
+          "package_name": "com.bellico.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmw4Ov_ZIkeA2upCRpfAQalrXi6lHeKuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445057758214:android:4763573d15fe09dbbd7f87",
+        "android_client_info": {
+          "package_name": "com.bellico.planner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmw4Ov_ZIkeA2upCRpfAQalrXi6lHeKuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
