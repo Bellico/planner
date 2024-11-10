@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:planner/papertime/presentation/pages/navigation_page.dart';
+import 'package:planner/app_router.dart';
+import 'package:planner/core/themes/themes.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    debugPrint(MediaQuery.of(context).platformBrightness.toString());
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      home: BottomNavigationBarExample(),
+      theme: lightMode, //Provider.of<ThemeProvider>(ctx).themeData
+      darkTheme: darkMode,
+      routerConfig: appRouter,
     );
   }
 }
